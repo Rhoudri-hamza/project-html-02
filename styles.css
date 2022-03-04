@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@100&display=swap');
+:root{
+    --primary-color: #d47e1c;
+    --gray-color: #b5aeae; 
+    --primary-font: Montserrat, sans-serif;
+    --secondary-font: Raleway, serif;
+    --little-gap: 16px;
+    --medium-gap: 32px;
+    --large-gap: 64px;
+}
+
+
+
+#whats-new {
+   
+    margin: var(--large-gap) var(--little-gap);
+    text-align: center;
+}
+
+h1 {
+    
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--primary-font);
+
+    margin-top: 0;
+    margin-bottom: var(--little-gap);
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gray-color);
+    font-family: var(--secondary-font);
+
+
+    margin-top: 0;
+    margin-bottom: var(--large-gap);
+}
+hr{
+    color:#5c5959;
+   
+    width: 45px;
+    margin-top: 0;
+    margin-bottom: var(--large-gap);
+}
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    column-gap: var(--medium-gap);
+    row-gap: var(--little-gap);
+
+}
+
+button {
+    background-color: white;
+    color: var(--gray-color);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid var(--gray-color);
+    padding: 16px 16px;
+    
+    border-radius: 40px;
+}
+.active, button:hover {
+    background-color: var(--primary-color);
+    color: #f7f5f5;
+    border-color: transparent;
+}
+.active:hover {
+    background-color: white;
+    color:var(--secondary-color);
+    border-color: transparent;
+}
+
+
+
+
+
